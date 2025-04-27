@@ -1,4 +1,4 @@
-import { Award, Check, Calendar } from "lucide-react";
+import { Award, Check, Calendar, Video, Smile } from "lucide-react";
 import CircularProgress from "@/components/CircularProgress";
 import AchievementItem from "@/components/AchievementItem";
 import ProgressBar from "@/components/ProgressBar";
