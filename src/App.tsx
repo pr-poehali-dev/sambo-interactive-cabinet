@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import Progress from "./pages/Progress";
 import Materials from "./pages/Materials";
+import VideoTasks from "./pages/VideoTasks";
 import NavBar from "./components/NavBar";
 
 const queryClient = new QueryClient();
@@ -25,6 +26,7 @@ const App = () => (
               <Route path="/" element={<Index />} />
               <Route path="/progress" element={<Progress />} />
               <Route path="/materials" element={<Materials />} />
+              <Route path="/video-tasks" element={<VideoTasks />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>
