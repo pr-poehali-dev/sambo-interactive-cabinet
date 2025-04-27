@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -6,7 +7,7 @@ export default {
 		"./pages/**/*.{ts,tsx}",
 		"./components/**/*.{ts,tsx}",
 		"./app/**/*.{ts,tsx}",
-		"./src/**/*.{ts,tsx}",
+		"./src/**/*.{ts,tsx}"
 	],
 	prefix: "",
 	theme: {
@@ -61,6 +62,17 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Самбо-Интерактив цвета
+				sambo: {
+					blue: '#2174CF',
+					orange: '#FF8D28',
+					red: '#E94F37',
+					green: '#4CAF50',
+					yellow: '#FFD54F',
+					background: '#F7F9FC',
+					cardBg: '#FFFFFF',
+					progressBg: '#C25B3D'
 				}
 			},
 			borderRadius: {
