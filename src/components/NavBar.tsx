@@ -23,9 +23,11 @@ const NavBar = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between">
           <div className="py-4">
-            <Link to="/" className="text-xl font-bold text-gray-800">СамбоАпп</Link>
+
+          <div className="py-4">
+            <Link to="/" className="text-xl font-bold text-gray-800">Самбо-Интерактив</Link>
           </div>
-          <div className="hidden sm:flex items-center space-x-4">
+
             {navItems.map((item) => (
               <Link
                 key={item.path}
